@@ -1,0 +1,5 @@
+{
+    "usingComponents": {
+      "myaudio": "/pages/myaudio/myaudio"
+    }
+}

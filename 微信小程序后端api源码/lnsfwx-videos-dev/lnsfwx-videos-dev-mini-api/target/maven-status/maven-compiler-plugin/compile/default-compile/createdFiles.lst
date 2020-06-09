@@ -1,0 +1,10 @@
+com\lnsfwx\controller\RegistLoginController.class
+com\lnsfwx\Application.class
+com\lnsfwx\controller\UserVideoController.class
+com\lnsfwx\controller\UserBgmController.class
+com\lnsfwx\interceptor\WxInterceptor.class
+com\lnsfwx\CorsConfig.class
+com\lnsfwx\controller\UsersController.class
+com\lnsfwx\controller\BasicController.class
+com\lnsfwx\WebMvcConfig.class
+com\lnsfwx\Swagger2.class

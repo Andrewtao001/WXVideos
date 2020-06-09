@@ -1,0 +1,14 @@
+com\lnsfwx\mapper\VideosMapper.class
+com\lnsfwx\mapper\UsersLikeVideosMapper.class
+com\lnsfwx\mapper\UsersReportMapper.class
+com\lnsfwx\mapper\CommentsMapper.class
+com\lnsfwx\mapper\CommentsVoMapper.class
+com\lnsfwx\mapper\IdentityUsersMapper.class
+com\lnsfwx\mapper\BgmMapper.class
+com\lnsfwx\mapper\PunishUsersMapper.class
+com\lnsfwx\App.class
+com\lnsfwx\mapper\UsersMapper.class
+com\lnsfwx\mapper\UsersFansMapper.class
+com\lnsfwx\mapper\AdminUsersMapper.class
+com\lnsfwx\mapper\SearchRecordsMapper.class
+com\lnsfwx\mapper\VideosVoMapper.class

@@ -1,0 +1,37 @@
+/* pages/myaudio/myaudio.wxss */
+.ico{
+  width: 80rpx;
+  height: 80rpx;
+  align-self: center;
+}
+.myaudio-wrapper{
+    width: 92%;
+  height: 120rpx;
+  background-color: ghostwhite;
+  border: 1px solid gainsboro;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* padding: 20rpx; */
+  /* margin-top: 20rpx; */
+}
+.texts{
+  align-self: center;
+  text-align: center;
+  
+}
+.songname{
+  font-size: 20px;
+}
+
+.singer{
+  font-size: 14px;
+  color: gray;
+}
+.druation{
+  align-self: center;
+  text-align: center;
+  font-size: 14px;
+  color: greenyellow;
+}

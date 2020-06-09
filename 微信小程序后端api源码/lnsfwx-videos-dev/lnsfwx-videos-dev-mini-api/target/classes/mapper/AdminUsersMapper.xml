@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lnsfwx.mapper.AdminUsersMapper" >
+  <resultMap id="BaseResultMap" type="com.lnsfwx.pojo.AdminUsers" >
+    <id column="id" property="id" jdbcType="VARCHAR" />
+    <result column="adminname" property="adminname" jdbcType="VARCHAR" />
+    <result column="password" property="password" jdbcType="VARCHAR" />
+    <result column="face_image" property="faceImage" jdbcType="VARCHAR" />
+    <result column="admin_power" property="adminPower" jdbcType="INTEGER" />
+    <result column="create_power" property="createPower" jdbcType="INTEGER" />
+    <result column="bgms_power" property="bgmsPower" jdbcType="INTEGER" />
+    <result column="comments_power" property="commentsPower" jdbcType="INTEGER" />
+    <result column="users_power" property="usersPower" jdbcType="INTEGER" />
+    <result column="videos_power" property="videosPower" jdbcType="INTEGER" />
+    <result column="admin_status" property="adminStatus" jdbcType="INTEGER" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    id, adminname, password, face_image, admin_power, create_power, bgms_power, comments_power, 
+    users_power, videos_power, admin_status
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.lnsfwx.pojo.AdminUsersExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from admin_users
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from admin_users
+    where id = #{id,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from admin_users
+    where id = #{id,jdbcType=VARCHAR}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.lnsfwx.pojo.AdminUsersExample" >
+    delete from admin_users
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.lnsfwx.pojo.AdminUsers" >
+    insert into admin_users (id, adminname, password, 
+      face_image, admin_power, create_power, 
+      bgms_power, comments_power, users_power, 
+      videos_power, admin_status)
+    values (#{id,jdbcType=VARCHAR}, #{adminname,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
+      #{faceImage,jdbcType=VARCHAR}, #{adminPower,jdbcType=INTEGER}, #{createPower,jdbcType=INTEGER}, 
+      #{bgmsPower,jdbcType=INTEGER}, #{commentsPower,jdbcType=INTEGER}, #{usersPower,jdbcType=INTEGER}, 
+      #{videosPower,jdbcType=INTEGER}, #{adminStatus,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.lnsfwx.pojo.AdminUsers" >
+    insert into admin_users
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="adminname != null" >
+        adminname,
+      </if>
+      <if test="password != null" >
+        password,
+      </if>
+      <if test="faceImage != null" >
+        face_image,
+      </if>
+      <if test="adminPower != null" >
+        admin_power,
+      </if>
+      <if test="createPower != null" >
+        create_power,
+      </if>
+      <if test="bgmsPower != null" >
+        bgms_power,
+      </if>
+      <if test="commentsPower != null" >
+        comments_power,
+      </if>
+      <if test="usersPower != null" >
+        users_power,
+      </if>
+      <if test="videosPower != null" >
+        videos_power,
+      </if>
+      <if test="adminStatus != null" >
+        admin_status,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=VARCHAR},
+      </if>
+      <if test="adminname != null" >
+        #{adminname,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null" >
+        #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="faceImage != null" >
+        #{faceImage,jdbcType=VARCHAR},
+      </if>
+      <if test="adminPower != null" >
+        #{adminPower,jdbcType=INTEGER},
+      </if>
+      <if test="createPower != null" >
+        #{createPower,jdbcType=INTEGER},
+      </if>
+      <if test="bgmsPower != null" >
+        #{bgmsPower,jdbcType=INTEGER},
+      </if>
+      <if test="commentsPower != null" >
+        #{commentsPower,jdbcType=INTEGER},
+      </if>
+      <if test="usersPower != null" >
+        #{usersPower,jdbcType=INTEGER},
+      </if>
+      <if test="videosPower != null" >
+        #{videosPower,jdbcType=INTEGER},
+      </if>
+      <if test="adminStatus != null" >
+        #{adminStatus,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.lnsfwx.pojo.AdminUsersExample" resultType="java.lang.Integer" >
+    select count(*) from admin_users
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update admin_users
+    <set >
+      <if test="record.id != null" >
+        id = #{record.id,jdbcType=VARCHAR},
+      </if>
+      <if test="record.adminname != null" >
+        adminname = #{record.adminname,jdbcType=VARCHAR},
+      </if>
+      <if test="record.password != null" >
+        password = #{record.password,jdbcType=VARCHAR},
+      </if>
+      <if test="record.faceImage != null" >
+        face_image = #{record.faceImage,jdbcType=VARCHAR},
+      </if>
+      <if test="record.adminPower != null" >
+        admin_power = #{record.adminPower,jdbcType=INTEGER},
+      </if>
+      <if test="record.createPower != null" >
+        create_power = #{record.createPower,jdbcType=INTEGER},
+      </if>
+      <if test="record.bgmsPower != null" >
+        bgms_power = #{record.bgmsPower,jdbcType=INTEGER},
+      </if>
+      <if test="record.commentsPower != null" >
+        comments_power = #{record.commentsPower,jdbcType=INTEGER},
+      </if>
+      <if test="record.usersPower != null" >
+        users_power = #{record.usersPower,jdbcType=INTEGER},
+      </if>
+      <if test="record.videosPower != null" >
+        videos_power = #{record.videosPower,jdbcType=INTEGER},
+      </if>
+      <if test="record.adminStatus != null" >
+        admin_status = #{record.adminStatus,jdbcType=INTEGER},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update admin_users
+    set id = #{record.id,jdbcType=VARCHAR},
+      adminname = #{record.adminname,jdbcType=VARCHAR},
+      password = #{record.password,jdbcType=VARCHAR},
+      face_image = #{record.faceImage,jdbcType=VARCHAR},
+      admin_power = #{record.adminPower,jdbcType=INTEGER},
+      create_power = #{record.createPower,jdbcType=INTEGER},
+      bgms_power = #{record.bgmsPower,jdbcType=INTEGER},
+      comments_power = #{record.commentsPower,jdbcType=INTEGER},
+      users_power = #{record.usersPower,jdbcType=INTEGER},
+      videos_power = #{record.videosPower,jdbcType=INTEGER},
+      admin_status = #{record.adminStatus,jdbcType=INTEGER}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.lnsfwx.pojo.AdminUsers" >
+    update admin_users
+    <set >
+      <if test="adminname != null" >
+        adminname = #{adminname,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null" >
+        password = #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="faceImage != null" >
+        face_image = #{faceImage,jdbcType=VARCHAR},
+      </if>
+      <if test="adminPower != null" >
+        admin_power = #{adminPower,jdbcType=INTEGER},
+      </if>
+      <if test="createPower != null" >
+        create_power = #{createPower,jdbcType=INTEGER},
+      </if>
+      <if test="bgmsPower != null" >
+        bgms_power = #{bgmsPower,jdbcType=INTEGER},
+      </if>
+      <if test="commentsPower != null" >
+        comments_power = #{commentsPower,jdbcType=INTEGER},
+      </if>
+      <if test="usersPower != null" >
+        users_power = #{usersPower,jdbcType=INTEGER},
+      </if>
+      <if test="videosPower != null" >
+        videos_power = #{videosPower,jdbcType=INTEGER},
+      </if>
+      <if test="adminStatus != null" >
+        admin_status = #{adminStatus,jdbcType=INTEGER},
+      </if>
+    </set>
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.lnsfwx.pojo.AdminUsers" >
+    update admin_users
+    set adminname = #{adminname,jdbcType=VARCHAR},
+      password = #{password,jdbcType=VARCHAR},
+      face_image = #{faceImage,jdbcType=VARCHAR},
+      admin_power = #{adminPower,jdbcType=INTEGER},
+      create_power = #{createPower,jdbcType=INTEGER},
+      bgms_power = #{bgmsPower,jdbcType=INTEGER},
+      comments_power = #{commentsPower,jdbcType=INTEGER},
+      users_power = #{usersPower,jdbcType=INTEGER},
+      videos_power = #{videosPower,jdbcType=INTEGER},
+      admin_status = #{adminStatus,jdbcType=INTEGER}
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+</mapper>

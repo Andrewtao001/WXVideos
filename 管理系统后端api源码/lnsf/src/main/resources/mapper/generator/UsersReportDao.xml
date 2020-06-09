@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.generator.dao.UsersReportDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.generator.entity.UsersReportEntity" id="usersReportMap">
+        <result property="id" column="id"/>
+        <result property="dealUserId" column="deal_user_id"/>
+        <result property="dealVideoId" column="deal_video_id"/>
+        <result property="title" column="title"/>
+        <result property="content" column="content"/>
+        <result property="userid" column="userid"/>
+        <result property="createDate" column="create_date"/>
+    </resultMap>
+
+
+</mapper>

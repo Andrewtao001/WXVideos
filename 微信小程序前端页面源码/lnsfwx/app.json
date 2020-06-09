@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/userLogin/login",
+      "pages/changePassword/changePassword",
+    "pages/findPassword/findPassword",
+      "pages/identityPassword/identityPassword",
+      
+      "pages/mine/mine",
+      
+      "pages/index/index",
+      "pages/userIdentity/userIdentity",
+    
+      "pages/searchVideo/searchVideo",
+  
+  "pages/report/report",
+    "pages/chooseBgm/chooseBgm",
+    "pages/userRegist/regist",
+  
+    "pages/videoinfo/videoinfo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "花样岭师",
+    "navigationBarTextStyle": "black"
+  },
+  "debug": true,
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

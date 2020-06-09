@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.generator.dao.IdentityUsersDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.generator.entity.IdentityUsersEntity" id="identityUsersMap">
+        <result property="id" column="id"/>
+        <result property="userId" column="user_id"/>
+        <result property="question1" column="question1"/>
+        <result property="question2" column="question2"/>
+        <result property="question3" column="question3"/>
+        <result property="answer1" column="answer1"/>
+        <result property="answer2" column="answer2"/>
+        <result property="answer3" column="answer3"/>
+    </resultMap>
+
+
+</mapper>

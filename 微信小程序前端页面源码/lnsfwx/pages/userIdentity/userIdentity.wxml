@@ -1,0 +1,56 @@
+<view>
+    <view class="login-icon">
+        <image class="login-img" src="../resource/images/dsp.jpg"></image>
+    </view>
+    <view class="login-from">
+        <form bindsubmit='doIdentity'>
+            <!--问题-->
+            <view class="inputView">
+                <image class="nameImage" src="../resource/images/question.png"></image>
+                <label class="loginLabel">问题一</label>
+                <input name="question1" class="inputText" placeholder="请输入问题一"/>
+            </view>
+            <!--答案-->
+            <view class="inputView">
+                <image class="keyImage" src="../resource/images/answer.png"></image>
+                <label class="loginLabel">答案一</label>
+                <input name="answer1" class="inputText" password="true" placeholder="请输入答案一"/>
+            </view>
+             <view class="line"></view>
+                        <!--问题-->
+            <view class="inputView">
+                <image class="nameImage" src="../resource/images/question.png"></image>
+                <label class="loginLabel">问题二</label>
+                <input name="question2" class="inputText" placeholder="请输入问题二"/>
+            </view>
+            
+
+            <!--答案-->
+            <view class="inputView">
+                <image class="keyImage" src="../resource/images/answer.png"></image>
+                <label class="loginLabel">答案二</label>
+                <input name="answer2" class="inputText" password="true" placeholder="请输入答案二"/>
+            </view>
+             <view class="line"></view>
+                        <!--问题-->
+            <view class="inputView">
+                <image class="nameImage" src="../resource/images/question.png"></image>
+                <label class="loginLabel">问题三</label>
+                <input name="question3" class="inputText" placeholder="请输入问题三"/>
+            </view>
+            <!--答案-->
+            <view class="inputView">
+                <image class="keyImage" src="../resource/images/answer.png"></image>
+                <label class="loginLabel">答案三</label>
+                <input name="answer3" class="inputText" password="true" placeholder="请输入答案三"/>
+            </view>
+               <view class="line"></view>
+            <view class="container">
+        <button bindtap='chooseImageTap' onUpLoad='{{onUpLoad}}' >请上传学生证信息页照片</button>
+            </view>
+            <view>
+                <button class="loginBtn" type="primary" form-type='submit'>完成</button>
+            </view>
+        </form>
+    </view>
+</view>

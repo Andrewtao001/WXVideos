@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lnsfwx.mapper.UsersMapper" >
+  <resultMap id="BaseResultMap" type="com.lnsfwx.pojo.Users" >
+    <id column="id" property="id" jdbcType="VARCHAR" />
+    <result column="username" property="username" jdbcType="VARCHAR" />
+    <result column="password" property="password" jdbcType="VARCHAR" />
+    <result column="face_image" property="faceImage" jdbcType="VARCHAR" />
+    <result column="nickname" property="nickname" jdbcType="VARCHAR" />
+    <result column="fans_counts" property="fansCounts" jdbcType="INTEGER" />
+    <result column="follow_counts" property="followCounts" jdbcType="INTEGER" />
+    <result column="user_status" property="userStatus" jdbcType="INTEGER" />
+    <result column="receive_like_counts" property="receiveLikeCounts" jdbcType="INTEGER" />
+    <result column="user_hidden" property="userHidden" jdbcType="INTEGER" />
+    <result column="user_faces" property="userFaces" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    id, username, password, face_image, nickname, fans_counts, follow_counts, user_status, 
+    receive_like_counts, user_hidden, user_faces
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.lnsfwx.pojo.UsersExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from users
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from users
+    where id = #{id,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from users
+    where id = #{id,jdbcType=VARCHAR}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.lnsfwx.pojo.UsersExample" >
+    delete from users
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.lnsfwx.pojo.Users" >
+    insert into users (id, username, password, 
+      face_image, nickname, fans_counts, 
+      follow_counts, user_status, receive_like_counts, 
+      user_hidden, user_faces)
+    values (#{id,jdbcType=VARCHAR}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
+      #{faceImage,jdbcType=VARCHAR}, #{nickname,jdbcType=VARCHAR}, #{fansCounts,jdbcType=INTEGER}, 
+      #{followCounts,jdbcType=INTEGER}, #{userStatus,jdbcType=INTEGER}, #{receiveLikeCounts,jdbcType=INTEGER}, 
+      #{userHidden,jdbcType=INTEGER}, #{userFaces,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.lnsfwx.pojo.Users" >
+    insert into users
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="username != null" >
+        username,
+      </if>
+      <if test="password != null" >
+        password,
+      </if>
+      <if test="faceImage != null" >
+        face_image,
+      </if>
+      <if test="nickname != null" >
+        nickname,
+      </if>
+      <if test="fansCounts != null" >
+        fans_counts,
+      </if>
+      <if test="followCounts != null" >
+        follow_counts,
+      </if>
+      <if test="userStatus != null" >
+        user_status,
+      </if>
+      <if test="receiveLikeCounts != null" >
+        receive_like_counts,
+      </if>
+      <if test="userHidden != null" >
+        user_hidden,
+      </if>
+      <if test="userFaces != null" >
+        user_faces,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=VARCHAR},
+      </if>
+      <if test="username != null" >
+        #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null" >
+        #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="faceImage != null" >
+        #{faceImage,jdbcType=VARCHAR},
+      </if>
+      <if test="nickname != null" >
+        #{nickname,jdbcType=VARCHAR},
+      </if>
+      <if test="fansCounts != null" >
+        #{fansCounts,jdbcType=INTEGER},
+      </if>
+      <if test="followCounts != null" >
+        #{followCounts,jdbcType=INTEGER},
+      </if>
+      <if test="userStatus != null" >
+        #{userStatus,jdbcType=INTEGER},
+      </if>
+      <if test="receiveLikeCounts != null" >
+        #{receiveLikeCounts,jdbcType=INTEGER},
+      </if>
+      <if test="userHidden != null" >
+        #{userHidden,jdbcType=INTEGER},
+      </if>
+      <if test="userFaces != null" >
+        #{userFaces,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.lnsfwx.pojo.UsersExample" resultType="java.lang.Integer" >
+    select count(*) from users
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update users
+    <set >
+      <if test="record.id != null" >
+        id = #{record.id,jdbcType=VARCHAR},
+      </if>
+      <if test="record.username != null" >
+        username = #{record.username,jdbcType=VARCHAR},
+      </if>
+      <if test="record.password != null" >
+        password = #{record.password,jdbcType=VARCHAR},
+      </if>
+      <if test="record.faceImage != null" >
+        face_image = #{record.faceImage,jdbcType=VARCHAR},
+      </if>
+      <if test="record.nickname != null" >
+        nickname = #{record.nickname,jdbcType=VARCHAR},
+      </if>
+      <if test="record.fansCounts != null" >
+        fans_counts = #{record.fansCounts,jdbcType=INTEGER},
+      </if>
+      <if test="record.followCounts != null" >
+        follow_counts = #{record.followCounts,jdbcType=INTEGER},
+      </if>
+      <if test="record.userStatus != null" >
+        user_status = #{record.userStatus,jdbcType=INTEGER},
+      </if>
+      <if test="record.receiveLikeCounts != null" >
+        receive_like_counts = #{record.receiveLikeCounts,jdbcType=INTEGER},
+      </if>
+      <if test="record.userHidden != null" >
+        user_hidden = #{record.userHidden,jdbcType=INTEGER},
+      </if>
+      <if test="record.userFaces != null" >
+        user_faces = #{record.userFaces,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update users
+    set id = #{record.id,jdbcType=VARCHAR},
+      username = #{record.username,jdbcType=VARCHAR},
+      password = #{record.password,jdbcType=VARCHAR},
+      face_image = #{record.faceImage,jdbcType=VARCHAR},
+      nickname = #{record.nickname,jdbcType=VARCHAR},
+      fans_counts = #{record.fansCounts,jdbcType=INTEGER},
+      follow_counts = #{record.followCounts,jdbcType=INTEGER},
+      user_status = #{record.userStatus,jdbcType=INTEGER},
+      receive_like_counts = #{record.receiveLikeCounts,jdbcType=INTEGER},
+      user_hidden = #{record.userHidden,jdbcType=INTEGER},
+      user_faces = #{record.userFaces,jdbcType=VARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.lnsfwx.pojo.Users" >
+    update users
+    <set >
+      <if test="username != null" >
+        username = #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null" >
+        password = #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="faceImage != null" >
+        face_image = #{faceImage,jdbcType=VARCHAR},
+      </if>
+      <if test="nickname != null" >
+        nickname = #{nickname,jdbcType=VARCHAR},
+      </if>
+      <if test="fansCounts != null" >
+        fans_counts = #{fansCounts,jdbcType=INTEGER},
+      </if>
+      <if test="followCounts != null" >
+        follow_counts = #{followCounts,jdbcType=INTEGER},
+      </if>
+      <if test="userStatus != null" >
+        user_status = #{userStatus,jdbcType=INTEGER},
+      </if>
+      <if test="receiveLikeCounts != null" >
+        receive_like_counts = #{receiveLikeCounts,jdbcType=INTEGER},
+      </if>
+      <if test="userHidden != null" >
+        user_hidden = #{userHidden,jdbcType=INTEGER},
+      </if>
+      <if test="userFaces != null" >
+        user_faces = #{userFaces,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.lnsfwx.pojo.Users" >
+    update users
+    set username = #{username,jdbcType=VARCHAR},
+      password = #{password,jdbcType=VARCHAR},
+      face_image = #{faceImage,jdbcType=VARCHAR},
+      nickname = #{nickname,jdbcType=VARCHAR},
+      fans_counts = #{fansCounts,jdbcType=INTEGER},
+      follow_counts = #{followCounts,jdbcType=INTEGER},
+      user_status = #{userStatus,jdbcType=INTEGER},
+      receive_like_counts = #{receiveLikeCounts,jdbcType=INTEGER},
+      user_hidden = #{userHidden,jdbcType=INTEGER},
+      user_faces = #{userFaces,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+</mapper>

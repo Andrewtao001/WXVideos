@@ -1,0 +1,10 @@
+<!--pages/myaudio/myaudio.wxml-->
+<view class="myaudio-wrapper">
+    <image src="/pages/resource/images/{{ico}}.png" class="ico" bindtap="statuss"></image>
+    <view class="texts">
+    
+      <view class="songname">{{name}}</view>
+      <view class="singer"> {{author}} </view>
+    </view>
+    <view class='druation'>{{duration}}</view>
+</view>

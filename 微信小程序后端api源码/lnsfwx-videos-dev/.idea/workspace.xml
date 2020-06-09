@@ -1,0 +1,1352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3827c236-0e1c-4131-8185-7d08d56663f2" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/lnsfwx-videos-dev-common/target/" />
+    <ignored path="$PROJECT_DIR$/lnsfwx-videos-dev-pojo/target/" />
+    <ignored path="$PROJECT_DIR$/lnsfwx-videos-dev-mapper/target/" />
+    <ignored path="$PROJECT_DIR$/lnsfwx-videos-dev-service/target/" />
+    <ignored path="$PROJECT_DIR$/lnsfwxvideosdevmini-api/target/" />
+    <ignored path="$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="lnsfwx-videos-dev" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/java/com/lnsfwx/controller/RegistLoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3120">
+              <caret line="155" column="21" selection-start-line="155" selection-start-column="18" selection-end-line="155" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-pojo/src/main/java/com/lnsfwx/pojo/vo/UsersVo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="51" column="26" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="26" />
+              <folding>
+                <element signature="e#1792#1793#0" expanded="true" />
+                <element signature="e#1830#1831#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/java/com/lnsfwx/controller/UserBgmController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-common/src/main/java/com/lnsfwx/utils/MD5Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="13" column="49" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-common/src/main/java/com/lnsfwx/utils/DelAudio.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-service/src/main/java/com/lnsfwx/service/IdentityUsersService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-service/src/main/java/com/lnsfwx/service/PunishUsersService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-common/src/main/java/com/lnsfwx/utils/BadWordUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="30" column="19" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-service/src/main/java/com/lnsfwx/service/UsersService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/java/com/lnsfwx/controller/UsersController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2352">
+              <caret line="118" selection-start-line="118" selection-end-line="118" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>SensitiveWordUtils</find>
+      <find>MinMatchTYpe</find>
+      <find>UsersServiceImpl</find>
+      <find>selecx</find>
+      <find>selectByExample</find>
+      <find>showFollowVideos</find>
+      <find>showAllVideos</find>
+      <find>login</find>
+      <find>userLogin</find>
+      <find>findIdentity</find>
+      <find>&lt;groupId&gt;com.lnsfwx&lt;/groupId&gt;</find>
+      <find>save</find>
+      <find>read</find>
+      <find>fileDownloadPath</find>
+      <find>FFMPEG_VIDEOS</find>
+      <find>FILE_DOWNLOAD_PATH</find>
+      <find>upLoadVideos</find>
+      <find>image</find>
+      <find>upLoadImage</find>
+      <find>fileVideoPath</find>
+      <find>Bad</find>
+      <find>BadWordUtils</find>
+      <find>StreamWriter</find>
+      <find>GB</find>
+      <find>/opt/lnsf_mod_dev</find>
+      <find>/opt</find>
+      <find>lnsf_mod_dev</find>
+      <find>face_image</find>
+      <find>setUsersRedisSessionKey</find>
+      <find>get</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>video</replace>
+      <replace>ffmpegEXE</replace>
+      <replace>coverFinalLocal</replace>
+      <replace>ffmpegVideos</replace>
+      <replace>BadWordUtils</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/java/com/lnsfwx/interceptor/WxInterceptor.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-service/src/main/java/com/lnsfwx/service/VideosService.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-pojo/src/main/java/com/lnsfwx/pojo/vo/CommentsVO.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-mapper/src/main/java/com/lnsfwx/mapper/CommentsVoMapper.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-common/src/main/java/com/lnsfwx/utils/BadWordUtil2.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-service/src/main/java/com/lnsfwx/service/impl/VideosServiceImpl.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-pojo/src/main/java/com/lnsfwx/IdentityUsersExample.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-service/src/main/java/com/lnsfwx/service/IdentityUsers.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/resources/mapper/IdentityUsersMapper.xml" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-common/src/main/java/com/lnsfwx/utils/LnsfwxJSONResult.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-pojo/src/main/java/com/lnsfwx/pojo/UsersExample.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-pojo/src/main/java/com/lnsfwx/pojo/PunishUsers.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-pojo/src/main/java/com/lnsfwx/pojo/PunishUsersExample.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-mapper/src/main/java/com/lnsfwx/mapper/VideosVoMapper.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-pojo/src/main/java/com/lnsfwx/pojo/vo/UsersVo.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-pojo/src/main/java/com/lnsfwx/pojo/Users.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-pojo/src/main/java/com/lnsfwx/pojo/IdentityUsers.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-pojo/src/main/java/com/lnsfwx/pojo/IdentityUsersExample.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-service/src/main/java/com/lnsfwx/service/IdentityUsersService.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-service/src/main/java/com/lnsfwx/service/impl/IdentityUsersServiceImpl.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-service/src/main/java/com/lnsfwx/service/UsersService.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-service/src/main/java/com/lnsfwx/service/impl/UsersServiceImpl.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/java/com/lnsfwx/aa.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/java/com/lnsfwx/CorsConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-common/src/main/java/com/lnsfwx/utils/DelWatermark.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-common/src/main/java/com/lnsfwx/utils/DelAudio.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-common/src/main/java/com/lnsfwx/utils/FetchVideoCover.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-common/src/main/java/com/lnsfwx/utils/MergeVideoBgm.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-common/src/main/java/com/cc/eguid/commandManager/data/TaskDao.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-common/src/main/resources/loadFFmpeg.properties" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-common/src/main/java/cc/eguid/commandManager/callback/EventCallBack.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/pom.xml" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/java/loadFFmpeg.properties" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/java/cc/eguid/commandManager/util/PropertiesUtil.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/java/com/lnsfwx/Application.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/java/com/lnsfwx/controller/BasicController.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-common/src/main/java/com/lnsfwx/utils/BadWordUtils.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-common/src/main/java/com/lnsfwx/utils/DelWatermarkRight.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/java/com/lnsfwx/controller/UserVideoController.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-common/src/main/java/com/lnsfwx/utils/DelWatermarkLeft.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/java/com/lnsfwx/controller/UserBgmController.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-service/src/main/java/com/lnsfwx/service/PunishUsers.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-mapper/src/main/java/com/lnsfwx/mapper/PunishUsersMapper.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-service/src/main/java/com/lnsfwx/service/PunishUsersService.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-service/src/main/java/com/lnsfwx/service/impl/PunishUsersServiceImpl.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/java/com/lnsfwx/WebMvcConfig.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/java/com/lnsfwx/controller/RegistLoginController.java" />
+        <option value="$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/java/com/lnsfwx/controller/UsersController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="G:\mavenwarehouse" />
+        <option name="mavenHome" value="C:/Program Files/Java/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="C:\Program Files\Java\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="lnsfwx-videos-dev-mini-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="lnsfwx-videos-dev-mini-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="微信小程序" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="微信小程序" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="976" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lnsfwx-videos-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lnsfwx-videos-dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lnsfwx-videos-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lnsfwx-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx-videos-dev-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lnsfwx-videos-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lnsfwx-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx-videos-dev-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lnsfwx-videos-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lnsfwx-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx-videos-dev-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lnsfwx-videos-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lnsfwx-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx-videos-dev-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lnsfwx-videos-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lnsfwx-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx-videos-dev-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lnsfwx-videos-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lnsfwx-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx-videos-dev-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lnsfwx-videos-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lnsfwx-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx-videos-dev-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lnsfwx-videos-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lnsfwx-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx-videos-dev-mini-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lnsfwx-videos-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lnsfwx-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx-videos-dev-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lnsfwx-videos-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lnsfwx-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx-videos-dev-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lnsfwx-videos-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lnsfwx-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx-videos-dev-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lnsfwx-videos-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lnsfwx-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx-videos-dev-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lnsfwx-videos-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lnsfwx-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx-videos-dev-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lnsfwx-videos-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lnsfwx-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx-videos-dev-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lnsfwx-videos-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lnsfwx-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx-videos-dev-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lnsfwx-videos-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lnsfwx-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx-videos-dev-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lnsfwx-videos-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lnsfwx-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx-videos-dev-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lnsfwx-videos-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lnsfwx-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx-videos-dev-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lnsfwx-videos-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lnsfwx-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx-videos-dev-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lnsfwx-videos-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lnsfwx-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx-videos-dev-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lnsfwx-videos-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lnsfwx-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx-videos-dev-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lnsfwx-videos-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lnsfwx-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx-videos-dev-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lnsfwx-videos-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lnsfwx-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx-videos-dev-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lnsfwx-videos-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lnsfwx-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx-videos-dev-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lnsfwx-videos-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lnsfwx-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx-videos-dev-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lnsfwx-videos-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lnsfwx-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx-videos-dev-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lnsfwx" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lnsfwx-videos-dev-mapper/src/main/java/com/lnsfwx/mapper" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.26951396" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\201906实训\idoal新项目\lnsfwx-videos-dev\lnsfwx-videos-dev-mini-api" />
+      <recent name="G:\201906实训\idoal新项目\lnsfwx-videos-dev\lnsfwx-videos-dev-mini-api\src\main\java\com\lnsfwx" />
+      <recent name="G:\201906实训\idoal新项目\lnsfwx-videos-dev\lnsfwx-videos-dev-mini-api\src" />
+      <recent name="G:\201906实训\idoal新项目\lnsfwx-videos-dev\lnsfwx-videos-dev-mini-api\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lnsfwx.utils" />
+      <recent name="com.lnsfwx.pojo.vo" />
+      <recent name="com.lnsfwx.mapper" />
+      <recent name="com.lnsfwx.service.impl" />
+      <recent name="com.lnsfwx.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\201906实训\idoal新项目\lnsfwx-videos-dev\lnsfwx-videos-dev-mapper\src\main\java\com\lnsfwx\mapper" />
+      <recent name="G:\201906实训\idoal新项目\lnsfwx-videos-dev\lnsfwx-videos-dev-mini-api\src\main\resources\mapper" />
+      <recent name="G:\201906实训\idoal新项目\lnsfwx-videos-dev\lnsfwx-videos-dev-pojo\src\main\java\com\lnsfwx\pojo" />
+      <recent name="G:\201906实训\idoal新项目\lnsfwx-videos-dev\lnsfwx-videos-dev-mini-api\src" />
+      <recent name="G:\201906实训\idoal新项目\lnsfwx-videos-dev\lnsfwx-videos-dev-mini-api\src\main\java\com\lnsfwx" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application (1)">
+    <configuration name="BadWordUtil2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lnsfwx.utils.BadWordUtil2" />
+      <module name="lnsfwx-videos-dev-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lnsfwx.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BadWordUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lnsfwx.utils.BadWordUtils" />
+      <module name="lnsfwx-videos-dev-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lnsfwx.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lnsfwx-videos-dev-mini-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lnsfwx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lnsfwx.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lnsfwxvideosdevmini-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lnsfwx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lnsfwx.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application (1)" />
+        <item itemvalue="Application.BadWordUtils" />
+        <item itemvalue="Application.BadWordUtil2" />
+        <item itemvalue="Spring Boot.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringRepositoriesView">
+    <option name="showModules" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3827c236-0e1c-4131-8185-7d08d56663f2" name="Default Changelist" comment="" />
+      <created>1577606377674</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577606377674</updated>
+      <workItem from="1577606379026" duration="14338000" />
+      <workItem from="1577701188123" duration="6062000" />
+      <workItem from="1577775226048" duration="6673000" />
+      <workItem from="1578752341921" duration="1000" />
+      <workItem from="1578752651355" duration="350000" />
+      <workItem from="1579083545688" duration="320000" />
+      <workItem from="1580486300504" duration="82000" />
+      <workItem from="1580486421915" duration="14000" />
+      <workItem from="1582118665136" duration="719000" />
+      <workItem from="1582360446258" duration="1270000" />
+      <workItem from="1583067949523" duration="7702000" />
+      <workItem from="1583156539880" duration="7030000" />
+      <workItem from="1583241525438" duration="2647000" />
+      <workItem from="1583336728311" duration="9835000" />
+      <workItem from="1583461329375" duration="14185000" />
+      <workItem from="1583592804677" duration="652000" />
+      <workItem from="1583642622957" duration="1199000" />
+      <workItem from="1583908772227" duration="2360000" />
+      <workItem from="1583939685104" duration="8413000" />
+      <workItem from="1583988535511" duration="1779000" />
+      <workItem from="1583994036368" duration="1979000" />
+      <workItem from="1584004569546" duration="2017000" />
+      <workItem from="1584017678688" duration="55000" />
+      <workItem from="1584028428138" duration="762000" />
+      <workItem from="1584067003327" duration="6928000" />
+      <workItem from="1584113592460" duration="4585000" />
+      <workItem from="1584158971305" duration="393000" />
+      <workItem from="1584162061235" duration="644000" />
+      <workItem from="1584199315994" duration="1213000" />
+      <workItem from="1584246146671" duration="6308000" />
+      <workItem from="1584459057660" duration="1296000" />
+      <workItem from="1584592628790" duration="19533000" />
+      <workItem from="1584668297659" duration="19764000" />
+      <workItem from="1584714810024" duration="1220000" />
+      <workItem from="1584772939346" duration="1980000" />
+      <workItem from="1584893562401" duration="599000" />
+      <workItem from="1584975472652" duration="6781000" />
+      <workItem from="1585034375821" duration="1204000" />
+      <workItem from="1585147383667" duration="5803000" />
+      <workItem from="1585224537005" duration="599000" />
+      <workItem from="1585295895022" duration="268000" />
+      <workItem from="1585402603347" duration="972000" />
+      <workItem from="1585468502113" duration="7960000" />
+      <workItem from="1585509695382" duration="615000" />
+      <workItem from="1585642272911" duration="3221000" />
+      <workItem from="1585734260065" duration="2018000" />
+      <workItem from="1585837113424" duration="8282000" />
+      <workItem from="1585902863498" duration="6293000" />
+      <workItem from="1585956760154" duration="6891000" />
+      <workItem from="1585999292453" duration="1780000" />
+      <workItem from="1586053935041" duration="3242000" />
+      <workItem from="1586164482802" duration="3996000" />
+      <workItem from="1586269208893" duration="6426000" />
+      <workItem from="1586302568460" duration="3777000" />
+      <workItem from="1586354554194" duration="5488000" />
+      <workItem from="1586440530034" duration="2474000" />
+      <workItem from="1586498036842" duration="8598000" />
+      <workItem from="1586595439198" duration="6675000" />
+      <workItem from="1586700063818" duration="599000" />
+      <workItem from="1586798349754" duration="10986000" />
+      <workItem from="1586883349952" duration="8705000" />
+      <workItem from="1586970638182" duration="9211000" />
+      <workItem from="1586989233005" duration="1472000" />
+      <workItem from="1587056540403" duration="11508000" />
+      <workItem from="1587152227806" duration="4190000" />
+      <workItem from="1587233552792" duration="3959000" />
+      <workItem from="1587287107457" duration="14163000" />
+      <workItem from="1587394995384" duration="7429000" />
+      <workItem from="1587411346602" duration="3287000" />
+      <workItem from="1587577652095" duration="8046000" />
+      <workItem from="1587624821685" duration="5719000" />
+      <workItem from="1588086783890" duration="1456000" />
+      <workItem from="1588090965925" duration="631000" />
+      <workItem from="1588689098112" duration="2241000" />
+      <workItem from="1588715013600" duration="192000" />
+      <workItem from="1588715623194" duration="2993000" />
+      <workItem from="1588879488212" duration="7000" />
+      <workItem from="1588884118329" duration="10159000" />
+      <workItem from="1588916835956" duration="989000" />
+      <workItem from="1588989270185" duration="5295000" />
+      <workItem from="1589055827400" duration="303000" />
+      <workItem from="1589057097410" duration="1210000" />
+      <workItem from="1589062632060" duration="1868000" />
+      <workItem from="1589080345684" duration="6347000" />
+      <workItem from="1590735241870" duration="112000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="371347000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info anchor="top" id="Bean Validation" order="0" side_tool="true" weight="0.034207527" />
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" sideWeight="0.35703" side_tool="true" weight="0.2739872" />
+      <window_info active="true" content_ui="combo" x="87" y="71" width="469" height="621" id="Project" order="5" sideWeight="0.64296997" visible="true" weight="0.24093817" />
+      <window_info id="Structure" order="6" sideWeight="0.09469697" side_tool="true" weight="0.2889126" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.3295325" />
+      <window_info anchor="bottom" id="Spring" order="1" sideWeight="0.4978678" weight="0.3295325" />
+      <window_info anchor="bottom" id="Java Enterprise" order="2" sideWeight="0.68070364" weight="0.3295325" />
+      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5021322" side_tool="true" weight="0.3295325" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" sideWeight="0.49946696" weight="0.32611173" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4936034" weight="0.3295325" />
+      <window_info anchor="bottom" id="Debug" order="10" sideWeight="0.6567164" weight="0.31698975" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="13" sideWeight="0.7665245" weight="0.24059293" />
+      <window_info anchor="bottom" id="TODO" order="14" weight="0.32611173" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.331813" />
+      <window_info anchor="bottom" id="Inspection Results" order="16" weight="0.1322691" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.041044775" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="193" height="847" id="Documentation" order="9" side_tool="true" weight="0.32932165" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="top" id="Bean Validation" order="0" side_tool="true" weight="0.034207527" />
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" sideWeight="0.35703" side_tool="true" weight="0.2739872" />
+      <window_info content_ui="combo" x="87" y="71" width="469" height="621" id="Project" order="5" sideWeight="0.64296997" visible="true" weight="0.2739872" />
+      <window_info id="Structure" order="6" sideWeight="0.09469697" side_tool="true" weight="0.2889126" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.3295325" />
+      <window_info anchor="bottom" id="Spring" order="1" sideWeight="0.4989339" weight="0.3295325" />
+      <window_info anchor="bottom" id="Java Enterprise" order="2" weight="0.3295325" />
+      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.23347548" side_tool="true" weight="0.31813" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" sideWeight="0.49946696" weight="0.32611173" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4936034" weight="0.17331813" />
+      <window_info anchor="bottom" id="Debug" order="10" sideWeight="0.6567164" weight="0.31698975" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="13" sideWeight="0.7665245" visible="true" weight="0.27822122" />
+      <window_info anchor="bottom" id="TODO" order="14" weight="0.32611173" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.331813" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.4035181" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="193" height="847" id="Documentation" order="9" side_tool="true" weight="0.32932165" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lnsfwx-videos-dev-service/src/main/java/com/lnsfwx/service/impl/UsersServiceImpl.java</url>
+          <line>91</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lnsfwx-videos-dev-service/src/main/java/com/lnsfwx/service/impl/IdentityUsersServiceImpl.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="videosVo.get(0).coverPath" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-mapper/src/main/java/com/lnsfwx/mapper/VideosVoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="56" column="65" lean-forward="true" selection-start-line="56" selection-start-column="65" selection-end-line="56" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-mapper/src/main/java/com/lnsfwx/mapper/CommentsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-mapper/src/main/java/com/lnsfwx/mapper/CommentsVoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-pojo/src/main/java/com/lnsfwx/pojo/PunishUsers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-pojo/src/main/java/com/lnsfwx/pojo/PunishUsersExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/UUID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="140" column="23" selection-start-line="140" selection-start-column="23" selection-end-line="140" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/resources/mapper/PunishUsersMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3384" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-mapper/src/main/java/com/lnsfwx/mapper/PunishUsersMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="53" column="38" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-pojo/src/main/java/com/lnsfwx/pojo/AdminUsers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-pojo/src/main/java/com/lnsfwx/pojo/AdminUsersExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/java/com/lnsfwx/controller/HelloWorldController.java" />
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-mapper/src/main/java/com/lnsfwx/mapper/BgmMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-mapper/src/main/java/com/lnsfwx/mapper/UsersLikeVideosMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/resources/mapper/UsersLikeVideosMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="69" column="2" selection-start-line="69" selection-start-column="2" selection-end-line="69" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-service/src/main/java/com/lnsfwx/service/VideosService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-mapper/src/main/java/com/lnsfwx/mapper/IdentityUsersMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-common/src/main/java/com/lnsfwx/utils/UserVideoStatusEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-common/src/main/java/com/lnsfwx/utils/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-common/src/main/java/com/lnsfwx/utils/PagedResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-common/src/main/java/com/lnsfwx/utils/MergeVideoBgm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-common/src/main/java/com/lnsfwx/utils/DelWatermarkRight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="26" column="45" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-common/src/main/java/com/lnsfwx/utils/DelWatermarkLeft.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-common/src/main/java/com/lnsfwx/utils/TimeAgoUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/java/com/lnsfwx/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="63" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/java/com/lnsfwx/WebMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-common/src/main/java/com/lnsfwx/utils/RedisOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="33" column="4" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-common/src/main/java/com/lnsfwx/utils/FetchVideoCover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-common/src/main/java/com/lnsfwx/utils/LnsfwxJSONResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/java/com/lnsfwx/controller/BasicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/java/com/lnsfwx/controller/UserVideoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4512">
+          <caret line="48" column="79" selection-start-line="48" selection-start-column="75" selection-end-line="48" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/java/com/lnsfwx/interceptor/WxInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/java/com/lnsfwx/CorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/java/com/lnsfwx/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-service/src/main/java/com/lnsfwx/service/impl/PunishUsersServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-service/src/main/java/com/lnsfwx/service/impl/UsersServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="77" column="46" selection-start-line="75" selection-start-column="6" selection-end-line="77" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-service/src/main/java/com/lnsfwx/service/impl/VideosServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-service/src/main/java/com/lnsfwx/service/impl/IdentityUsersServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="35" column="52" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-service/src/main/java/com/lnsfwx/service/impl/BgmServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="29" column="53" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-service/src/main/java/com/lnsfwx/service/BgmService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/java/com/lnsfwx/controller/RegistLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3120">
+          <caret line="155" column="21" selection-start-line="155" selection-start-column="18" selection-end-line="155" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-pojo/src/main/java/com/lnsfwx/pojo/vo/UsersVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="51" column="26" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="26" />
+          <folding>
+            <element signature="e#1792#1793#0" expanded="true" />
+            <element signature="e#1830#1831#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/java/com/lnsfwx/controller/UserBgmController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-common/src/main/java/com/lnsfwx/utils/MD5Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-common/src/main/java/com/lnsfwx/utils/DelAudio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-service/src/main/java/com/lnsfwx/service/IdentityUsersService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-service/src/main/java/com/lnsfwx/service/PunishUsersService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-service/src/main/java/com/lnsfwx/service/UsersService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-mini-api/src/main/java/com/lnsfwx/controller/UsersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2352">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lnsfwx-videos-dev-common/src/main/java/com/lnsfwx/utils/BadWordUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26951396" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26951396" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26951396" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>lnsfwx-videos-dev-pojo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26951396" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.springframework.boot:spring-boot-starter-log4j:1.3.8.RELEASE</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26951396" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
